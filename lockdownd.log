@@ -1,0 +1,344 @@
+06/05/26 11:39:07.203914 pid=90 main: Starting Up
+06/05/26 11:39:07.211111 pid=90 enumerate_pair_record_paths: Failed to open /private/var/root/Library/Lockdown/pair_records/: 2 (No such file or directory)
+06/05/26 11:39:07.212110 pid=90 _load_dict: Failed to load /private/var/root/Library/Lockdown/data_ark.plist.
+06/05/26 11:39:07.212117 pid=90 data_ark_load: Failed to load /private/var/root/Library/Lockdown/data_ark.plist.
+06/05/26 11:39:07.212155 pid=90 mglog: libMobileGestalt utility.c:75: Could not open /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.mobilegestaltcache/Library/Caches/com.apple.MobileGestalt.plist: No such file or directory
+06/05/26 11:39:07.212935 pid=90 mglog: libMobileGestalt MGIOKitHelper.m:632: Node baseband found
+06/05/26 11:39:07.213222 pid=90 data_ark_set_block_invoke: dirtied by changing -HasSiDP
+06/05/26 11:39:07.474918 pid=90 copy_device_name: SCDynamicStoreCopyComputerName failed: No such key
+06/05/26 11:39:09.651387 pid=90 data_ark_set_block_invoke: dirtied by changing -DeviceName
+06/05/26 11:39:09.655701 pid=90 data_ark_set_block_invoke: dirtied by changing -ProtocolVersion
+06/05/26 11:39:09.656729 pid=90 perform_migration: Detected upgrade from (null) to 26.0.1.
+06/05/26 11:39:09.828911 pid=90 enumerate_pair_record_paths: Failed to open /private/var/root/Library/Lockdown/pair_records/: 2 (No such file or directory)
+06/05/26 11:39:09.840490 pid=90 destroy_pairing_keypair_pems: Failed to delete /private/var/root/Library/Lockdown/device_private_key.pem: No such file or directory
+06/05/26 11:39:09.840585 pid=90 destroy_pairing_keypair_pems: Failed to delete /private/var/root/Library/Lockdown/device_public_key.pem: No such file or directory
+06/05/26 11:39:09.912897 pid=90 _pairing_keypair_worker_block_invoke_2: Destroying old pair records.
+06/05/26 11:39:09.914456 pid=90 perform_migration: Successfully performed upgrade key rolling.
+06/05/26 11:39:09.914478 pid=90 data_ark_set_block_invoke: dirtied by changing -DarkProductVersion
+06/05/26 11:39:09.915027 pid=90 data_ark_store_block_invoke: Saved.
+06/05/26 11:39:09.918154 pid=90 enumerate_pair_record_paths: Failed to open /private/var/root/Library/Lockdown/pair_records/: 2 (No such file or directory)
+06/05/26 11:39:09.918165 pid=90 data_ark_set_block_invoke: dirtied by changing -PairRecordProtectionClass
+06/05/26 11:39:09.918647 pid=90 data_ark_store_block_invoke: Saved.
+06/05/26 11:39:09.918667 pid=90 lockstart_local: Build version: 23A355
+06/05/26 11:39:09.933614 pid=90 lockstart_local: Data Migration Completed: false
+06/05/26 11:39:09.933726 pid=90 get_device_type_internal_block_invoke: product_type: iPhone17,2
+
+06/05/26 11:39:09.933734 pid=90 get_device_type_internal_block_invoke: has_telephony: true, should_hactivate: false
+06/05/26 11:39:09.933741 pid=90 get_device_type_internal_block_invoke: baseband_class: 3, cert_type 1
+06/05/26 11:39:09.933746 pid=90 _load_product_type: using Raptor Certs
+06/05/26 11:39:09.933755 pid=90 data_ark_set_block_invoke: dirtied by changing -UseRaptorCerts
+06/05/26 11:39:09.962536 pid=90 performBootSessionIntialization: Boot session changed (reboot detected).
+06/05/26 11:39:09.993514 pid=90 performBootSessionIntialization: Device is in buddy upon new boot session, deleting all existing pair records.
+06/05/26 11:39:10.011570 pid=90 _pairing_keypair_worker_block_invoke_2: Destroying old pair records.
+06/05/26 11:39:10.012270 pid=90 data_ark_set_block_invoke: dirtied by changing -BootSessionID
+06/05/26 11:39:10.012692 pid=90 data_ark_store_block_invoke: Saved.
+06/05/26 11:39:10.013719 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiConnections]
+06/05/26 11:39:10.013733 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.013767 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 11:39:10.013776 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.013973 pid=90 handle_set_value: profiled attempting to set [com.apple.mobile.backup]:[RequiresEncryption] to [0] of type 22
+06/05/26 11:39:10.014042 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiDebugging]
+06/05/26 11:39:10.014051 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.014175 pid=90 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.backup-RequiresEncryption
+06/05/26 11:39:10.014283 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 11:39:10.014291 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.014746 pid=90 data_ark_store_block_invoke: Saved.
+06/05/26 11:39:10.014847 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiConnections]
+06/05/26 11:39:10.014859 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.015002 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiDebugging]
+06/05/26 11:39:10.015012 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.015137 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 11:39:10.015148 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.015331 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiConnections]
+06/05/26 11:39:10.015340 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.015451 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiDebugging]
+06/05/26 11:39:10.015458 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.015577 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 11:39:10.015584 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.015723 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiConnections]
+06/05/26 11:39:10.015729 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.015838 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiDebugging]
+06/05/26 11:39:10.015849 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.015957 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 11:39:10.015965 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.016091 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiConnections]
+06/05/26 11:39:10.016098 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.016210 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiDebugging]
+06/05/26 11:39:10.016217 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.016337 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 11:39:10.016344 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.016458 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiConnections]
+06/05/26 11:39:10.016465 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.016568 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiDebugging]
+06/05/26 11:39:10.016574 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.016679 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 11:39:10.016686 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.016806 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiConnections]
+06/05/26 11:39:10.016813 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.016911 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiDebugging]
+06/05/26 11:39:10.016919 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.017019 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 11:39:10.017026 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 11:39:10.137918 pid=90 refresh_remote_services_block_invoke: Done resetting remote devices.
+06/05/26 11:39:10.137946 pid=90 service_ark_load: Refreshed remote services.
+06/05/26 11:39:10.139154 pid=90 intialize_wifi_syncing: Full service name is '90:b7:90:00:a0:36@fe80::92b7:90ff:fe00:a036-supportsRP-24._apple-mobdev2._tcp.local.'.
+06/05/26 11:39:10.142334 pid=90 notify_configd_block_invoke_2: Pinged configd, USB is now enabled.
+06/05/26 11:39:12.515472 pid=90 handle_set_value: profiled attempting to set [com.apple.mobile.restriction]:[ProhibitAppInstall] to [false] of type 21
+06/05/26 11:39:12.515587 pid=90 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.restriction-ProhibitAppInstall
+06/05/26 11:39:12.517135 pid=90 data_ark_store_block_invoke: Saved.
+06/05/26 11:39:12.517896 pid=90 handle_set_value: profiled attempting to set [com.apple.mobile.restriction]:[ProhibitAppDelete] to [false] of type 21
+06/05/26 11:39:12.517959 pid=90 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.restriction-ProhibitAppDelete
+06/05/26 11:39:12.519755 pid=90 data_ark_store_block_invoke: Saved.
+06/05/26 14:42:21.753230 pid=90 migrator_finished_callback: Data Migration is complete.
+06/05/26 14:42:21.753413 pid=90 main_block_invoke: Received notification: com.apple.datamigrator.migrationDidFinish
+06/05/26 14:43:58.423139 pid=90 handle_set_value: Setup attempting to set [NULL]:[ActivationStateAcknowledged] to [true] of type 21
+06/05/26 14:43:58.427288 pid=90 data_ark_set_block_invoke: dirtied by changing -ActivationStateAcknowledged
+06/05/26 14:43:58.823463 pid=90 data_ark_store_block_invoke: Saved.
+06/05/26 14:44:44.474274 pid=90 handle_get_value: accountsd attempting to get [com.apple.mobile.tethered_sync]:[Notes]
+06/05/26 14:44:44.474755 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 14:45:32.599008 pid=90 handle_get_value: profiled attempting to get [BrickState]
+06/05/26 14:59:41.950152 pid=90 handle_reset_pair: Preparing to reset pairing for Preferences.
+06/05/26 14:59:41.967353 pid=90 bonjour_service_callback: Bonjour (sync) service notification.
+06/05/26 14:59:41.972483 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiConnections]
+06/05/26 14:59:41.972495 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 14:59:41.972630 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiDebugging]
+06/05/26 14:59:41.972639 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 14:59:41.972741 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 14:59:41.972753 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 14:59:42.054833 pid=90 bonjour_service_callback: Bonjour (sync) service notification.
+06/05/26 14:59:42.054820 pid=90 _pairing_keypair_worker_block_invoke_2: Destroying old pair records.
+06/05/26 14:59:42.055458 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiConnections]
+06/05/26 14:59:42.055504 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 14:59:42.055758 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiDebugging]
+06/05/26 14:59:42.055771 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 14:59:42.055803 pid=90 bonjour_service_callback: Bonjour (sync) service notification.
+06/05/26 14:59:42.056084 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 14:59:42.056129 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 14:59:42.056466 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiConnections]
+06/05/26 14:59:42.056477 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 14:59:42.056608 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiDebugging]
+06/05/26 14:59:42.056616 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 14:59:42.056753 pid=90 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 14:59:42.056762 pid=90 set_response_error: handle_get_value MissingValue
+06/05/26 14:59:50.707150 pid=90 handle_remove_value: DeviceDataResetXPCServiceWorker attempting to remove [com.apple.mobile.iTunes.store]:[AppleID]
+06/05/26 14:59:50.707330 pid=90 handle_remove_value: DeviceDataResetXPCServiceWorker attempting to remove [com.apple.mobile.data_sync]:[Contacts]
+06/05/26 14:59:50.707441 pid=90 handle_remove_value: DeviceDataResetXPCServiceWorker attempting to remove [com.apple.mobile.data_sync]:[Calendars]
+06/05/26 14:59:50.707542 pid=90 handle_remove_value: DeviceDataResetXPCServiceWorker attempting to remove [com.apple.mobile.data_sync]:[Bookmarks]
+06/05/26 14:59:50.707638 pid=90 handle_remove_value: DeviceDataResetXPCServiceWorker attempting to remove [com.apple.mobile.data_sync]:[Mail Accounts]
+06/05/26 15:00:16.793039 pid=89 main: Starting Up
+06/05/26 15:00:16.795910 pid=89 enumerate_pair_record_paths: Failed to open /private/var/root/Library/Lockdown/pair_records/: 2 (No such file or directory)
+06/05/26 15:00:16.798986 pid=89 mglog: libMobileGestalt MobileGestaltCache.c:206: Cache loaded with 6210 pre-cached in CacheData and 83 items in CacheExtra.
+06/05/26 15:00:16.800222 pid=89 copy_device_name: SCDynamicStoreCopyComputerName failed: No such key
+06/05/26 15:00:18.452117 pid=89 lockstart_local: Build version: 23A355
+06/05/26 15:00:18.452381 pid=89 lockstart_local: Data Migration Completed: false
+06/05/26 15:00:18.452823 pid=89 get_device_type_internal_block_invoke: product_type: iPhone17,2
+
+06/05/26 15:00:18.452838 pid=89 get_device_type_internal_block_invoke: has_telephony: true, should_hactivate: false
+06/05/26 15:00:18.452849 pid=89 get_device_type_internal_block_invoke: baseband_class: 3, cert_type 1
+06/05/26 15:00:18.452856 pid=89 _load_product_type: using Raptor Certs
+06/05/26 15:00:18.492754 pid=89 performBootSessionIntialization: Boot session changed (reboot detected).
+06/05/26 15:00:18.718704 pid=89 data_ark_set_block_invoke: dirtied by changing -BootSessionID
+06/05/26 15:00:18.722271 pid=89 data_ark_store_block_invoke: Saved.
+06/05/26 15:00:18.723631 pid=89 data_ark_remove_extended_block_invoke: dirtied by removing com.apple.mobile.backup-RequiresEncryption
+06/05/26 15:00:18.724663 pid=89 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiConnections]
+06/05/26 15:00:18.724705 pid=89 set_response_error: handle_get_value MissingValue
+06/05/26 15:00:18.751482 pid=89 data_ark_store_block_invoke: Saved.
+06/05/26 15:00:18.751742 pid=89 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiDebugging]
+06/05/26 15:00:18.751769 pid=89 set_response_error: handle_get_value MissingValue
+06/05/26 15:00:19.334579 pid=89 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 15:00:19.334681 pid=89 set_response_error: handle_get_value MissingValue
+06/05/26 15:00:19.444750 pid=89 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 15:00:19.444879 pid=89 set_response_error: handle_get_value MissingValue
+06/05/26 15:00:19.922331 pid=89 refresh_remote_services_block_invoke: Done resetting remote devices.
+06/05/26 15:00:19.923318 pid=89 service_ark_load: Refreshed remote services.
+06/05/26 15:00:19.924862 pid=89 intialize_wifi_syncing: Full service name is '90:b7:90:00:a0:36@fe80::92b7:90ff:fe00:a036-supportsRP-24._apple-mobdev2._tcp.local.'.
+06/05/26 15:00:19.930874 pid=89 notify_configd_block_invoke_2: Pinged configd, USB is now enabled.
+06/05/26 15:01:20.772587 pid=89 migrator_finished_callback: Data Migration is complete.
+06/05/26 15:01:20.822022 pid=89 main_block_invoke: Received notification: com.apple.datamigrator.migrationDidFinish
+06/05/26 17:35:09.312869 pid=1345 main: Starting Up
+06/05/26 17:35:09.315912 pid=1345 enumerate_pair_record_paths: Failed to open /private/var/root/Library/Lockdown/pair_records/: 2 (No such file or directory)
+06/05/26 17:35:09.317466 pid=1345 mglog: libMobileGestalt MobileGestaltCache.c:206: Cache loaded with 6210 pre-cached in CacheData and 83 items in CacheExtra.
+06/05/26 17:35:09.338945 pid=1345 lockstart_local: Build version: 23A355
+06/05/26 17:35:09.339256 pid=1345 lockstart_local: Data Migration Completed: true
+06/05/26 17:35:09.339525 pid=1345 get_device_type_internal_block_invoke: product_type: iPhone17,2
+
+06/05/26 17:35:09.339534 pid=1345 get_device_type_internal_block_invoke: has_telephony: true, should_hactivate: false
+06/05/26 17:35:09.339541 pid=1345 get_device_type_internal_block_invoke: baseband_class: 3, cert_type 1
+06/05/26 17:35:09.339546 pid=1345 _load_product_type: using Raptor Certs
+06/05/26 17:35:09.355640 pid=1345 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 17:35:09.355658 pid=1345 set_response_error: handle_get_value MissingValue
+06/05/26 17:35:09.355691 pid=1345 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiConnections]
+06/05/26 17:35:09.355700 pid=1345 set_response_error: handle_get_value MissingValue
+06/05/26 17:35:09.357619 pid=1345 handle_get_value: Preferences attempting to get [com.apple.mobile.lockdown.paired_host_info]:[(null)]
+06/05/26 17:35:09.357659 pid=1345 enumerate_pair_record_paths: Failed to open /private/var/root/Library/Lockdown/pair_records/: 2 (No such file or directory)
+06/05/26 17:35:09.357675 pid=1345 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiDebugging]
+06/05/26 17:35:09.357688 pid=1345 set_response_error: handle_get_value MissingValue
+06/05/26 17:35:09.358204 pid=1345 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 17:35:09.358215 pid=1345 set_response_error: handle_get_value MissingValue
+06/05/26 17:35:09.404719 pid=1345 intialize_wifi_syncing: Full service name is '90:b7:90:00:a0:36@fe80::92b7:90ff:fe00:a036-supportsRP-24._apple-mobdev2._tcp.local.'.
+06/05/26 17:35:09.405301 pid=1345 notify_configd_block_invoke_2: Pinged configd, USB is now enabled.
+06/05/26 17:41:37.914064 pid=1345 handle_get_value: backupd attempting to get [com.apple.mobile.backup]:[CloudBackupEnabled]
+06/05/26 17:41:37.914500 pid=1345 special_case_get: key CloudBackupEnabled
+06/05/26 17:41:37.914618 pid=1345 set_response_error: handle_get_value MissingValue
+06/05/26 17:41:37.915458 pid=1345 handle_set_value: backupd attempting to set [com.apple.mobile.backup]:[CloudBackupEnabled] to [false] of type 21
+06/05/26 17:41:37.916615 pid=1345 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.backup-CloudBackupEnabled
+06/05/26 17:41:37.918320 pid=1345 data_ark_store_block_invoke: Saved.
+06/05/26 17:41:55.343553 pid=1345 handle_get_value: accountsd attempting to get [com.apple.mobile.data_sync]:[Calendars]
+06/05/26 17:41:55.343757 pid=1345 set_response_error: handle_get_value MissingValue
+06/05/26 17:41:55.505305 pid=1345 handle_set_value: accountsd attempting to set [com.apple.mobile.data_sync]:[Calendars] to [{
+    Sources =     (
+        iCloud
+    );
+}] of type 18
+06/05/26 17:41:55.505424 pid=1345 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.data_sync-Calendars
+06/05/26 17:41:55.588823 pid=1345 data_ark_store_block_invoke: Saved.
+06/05/26 17:41:55.590579 pid=1345 handle_get_value: accountsd attempting to get [com.apple.mobile.data_sync]:[Calendars]
+06/05/26 17:41:55.667461 pid=1345 handle_set_value: accountsd attempting to set [com.apple.mobile.data_sync]:[Calendars] to [{
+    AccountNames =     (
+        iCloud
+    );
+    Sources =     (
+        iCloud
+    );
+}] of type 18
+06/05/26 17:41:55.667544 pid=1345 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.data_sync-Calendars
+06/05/26 17:41:55.751367 pid=1345 data_ark_store_block_invoke: Saved.
+06/05/26 17:41:55.752031 pid=1345 handle_get_value: accountsd attempting to get [com.apple.mobile.data_sync]:[Bookmarks]
+06/05/26 17:41:55.752074 pid=1345 set_response_error: handle_get_value MissingValue
+06/05/26 17:41:55.971948 pid=1345 handle_set_value: accountsd attempting to set [com.apple.mobile.data_sync]:[Bookmarks] to [{
+    Sources =     (
+        iCloud
+    );
+}] of type 18
+06/05/26 17:41:55.972038 pid=1345 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.data_sync-Bookmarks
+06/05/26 17:41:56.002971 pid=1345 data_ark_store_block_invoke: Saved.
+06/05/26 17:41:56.003601 pid=1345 handle_get_value: accountsd attempting to get [com.apple.mobile.data_sync]:[Bookmarks]
+06/05/26 17:41:56.062901 pid=1345 handle_set_value: accountsd attempting to set [com.apple.mobile.data_sync]:[Bookmarks] to [{
+    AccountNames =     (
+        iCloud
+    );
+    Sources =     (
+        iCloud
+    );
+}] of type 18
+06/05/26 17:41:56.062980 pid=1345 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.data_sync-Bookmarks
+06/05/26 17:41:56.233907 pid=1345 data_ark_store_block_invoke: Saved.
+06/05/26 17:41:56.235120 pid=1345 handle_get_value: accountsd attempting to get [com.apple.mobile.data_sync]:[Contacts]
+06/05/26 17:41:56.235160 pid=1345 set_response_error: handle_get_value MissingValue
+06/05/26 17:41:56.235517 pid=1345 handle_get_value: backupd attempting to get [com.apple.mobile.backup]:[CloudBackupEnabled]
+06/05/26 17:41:56.235548 pid=1345 special_case_get: key CloudBackupEnabled
+06/05/26 17:41:56.241472 pid=1345 handle_set_value: accountsd attempting to set [com.apple.mobile.data_sync]:[Contacts] to [{
+    Sources =     (
+        iCloud
+    );
+}] of type 18
+06/05/26 17:41:56.241589 pid=1345 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.data_sync-Contacts
+06/05/26 17:41:56.244106 pid=1345 handle_set_value: backupd attempting to set [com.apple.mobile.backup]:[CloudBackupEnabled] to [true] of type 21
+06/05/26 17:41:56.247010 pid=1345 data_ark_store_block_invoke: Saved.
+06/05/26 17:41:56.248056 pid=1345 handle_get_value: accountsd attempting to get [com.apple.mobile.data_sync]:[Contacts]
+06/05/26 17:41:56.249815 pid=1345 data_ark_remove_extended_block_invoke: dirtied by removing com.apple.mobile.backup-CloudBackupEnabled
+06/05/26 17:41:56.249868 pid=1345 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.backup-CloudBackupEnabled
+06/05/26 17:41:56.250831 pid=1345 data_ark_store_block_invoke: Saved.
+06/05/26 17:41:56.260268 pid=1345 handle_set_value: accountsd attempting to set [com.apple.mobile.data_sync]:[Contacts] to [{
+    AccountNames =     (
+        iCloud
+    );
+    Sources =     (
+        iCloud
+    );
+}] of type 18
+06/05/26 17:41:56.260331 pid=1345 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.data_sync-Contacts
+06/05/26 17:41:56.264393 pid=1345 data_ark_store_block_invoke: Saved.
+06/05/26 17:42:07.754621 pid=1345 handle_get_value: accountsd attempting to get [com.apple.mobile.tethered_sync]:[Notes]
+06/05/26 17:42:07.755011 pid=1345 set_response_error: handle_get_value MissingValue
+06/05/26 17:42:21.764576 pid=1345 handle_get_value: backupd attempting to get [com.apple.mobile.backup]:[CloudBackupEnabled]
+06/05/26 17:42:21.764963 pid=1345 special_case_get: key CloudBackupEnabled
+06/05/26 17:42:21.765196 pid=1345 handle_set_value: backupd attempting to set [com.apple.mobile.backup]:[CloudBackupEnabled] to [false] of type 21
+06/05/26 17:42:21.765812 pid=1345 data_ark_remove_extended_block_invoke: dirtied by removing com.apple.mobile.backup-CloudBackupEnabled
+06/05/26 17:42:21.765892 pid=1345 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.backup-CloudBackupEnabled
+06/05/26 17:42:21.767111 pid=1345 data_ark_store_block_invoke: Saved.
+06/05/26 17:42:50.307668 pid=1345 handle_get_value: accountsd attempting to get [com.apple.mobile.data_sync]:[Calendars]
+06/05/26 17:42:50.313164 pid=1345 handle_set_value: accountsd attempting to set [com.apple.mobile.data_sync]:[Calendars] to [{
+    AccountNames =     (
+        iCloud
+    );
+    Sources =     (
+    );
+}] of type 18
+06/05/26 17:42:50.313322 pid=1345 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.data_sync-Calendars
+06/05/26 17:42:50.316526 pid=1345 data_ark_store_block_invoke: Saved.
+06/05/26 17:42:50.317548 pid=1345 handle_get_value: accountsd attempting to get [com.apple.mobile.data_sync]:[Calendars]
+06/05/26 17:42:50.318010 pid=1345 handle_set_value: accountsd attempting to set [com.apple.mobile.data_sync]:[Calendars] to [{
+    AccountNames =     (
+    );
+    Sources =     (
+    );
+}] of type 18
+06/05/26 17:42:50.318118 pid=1345 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.data_sync-Calendars
+06/05/26 17:42:50.319583 pid=1345 data_ark_store_block_invoke: Saved.
+06/05/26 17:42:53.780917 pid=1345 handle_get_value: accountsd attempting to get [com.apple.mobile.data_sync]:[Bookmarks]
+06/05/26 17:42:53.795287 pid=1345 handle_set_value: accountsd attempting to set [com.apple.mobile.data_sync]:[Bookmarks] to [{
+    AccountNames =     (
+        iCloud
+    );
+    Sources =     (
+    );
+}] of type 18
+06/05/26 17:42:53.795365 pid=1345 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.data_sync-Bookmarks
+06/05/26 17:42:53.796733 pid=1345 data_ark_store_block_invoke: Saved.
+06/05/26 17:42:53.797341 pid=1345 handle_get_value: accountsd attempting to get [com.apple.mobile.data_sync]:[Bookmarks]
+06/05/26 17:42:53.797574 pid=1345 handle_set_value: accountsd attempting to set [com.apple.mobile.data_sync]:[Bookmarks] to [{
+    AccountNames =     (
+    );
+    Sources =     (
+    );
+}] of type 18
+06/05/26 17:42:53.797630 pid=1345 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.data_sync-Bookmarks
+06/05/26 17:42:53.798645 pid=1345 data_ark_store_block_invoke: Saved.
+06/05/26 21:10:00.123157 pid=2590 main: Starting Up
+06/05/26 21:10:00.126019 pid=2590 enumerate_pair_record_paths: Failed to open /private/var/root/Library/Lockdown/pair_records/: 2 (No such file or directory)
+06/05/26 21:10:00.127431 pid=2590 mglog: libMobileGestalt MobileGestaltCache.c:206: Cache loaded with 6210 pre-cached in CacheData and 83 items in CacheExtra.
+06/05/26 21:10:00.138681 pid=2590 lockstart_local: Build version: 23A355
+06/05/26 21:10:00.139132 pid=2590 lockstart_local: Data Migration Completed: true
+06/05/26 21:10:00.139433 pid=2590 get_device_type_internal_block_invoke: product_type: iPhone17,2
+
+06/05/26 21:10:00.139443 pid=2590 get_device_type_internal_block_invoke: has_telephony: true, should_hactivate: false
+06/05/26 21:10:00.139451 pid=2590 get_device_type_internal_block_invoke: baseband_class: 3, cert_type 1
+06/05/26 21:10:00.139456 pid=2590 _load_product_type: using Raptor Certs
+06/05/26 21:10:00.158606 pid=2590 data_ark_remove_extended_block_invoke: dirtied by removing com.apple.mobile.backup-CloudBackupEnabled
+06/05/26 21:10:00.158912 pid=2590 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiConnections]
+06/05/26 21:10:00.158939 pid=2590 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 21:10:00.158978 pid=2590 set_response_error: handle_get_value MissingValue
+06/05/26 21:10:00.159002 pid=2590 set_response_error: handle_get_value MissingValue
+06/05/26 21:10:00.159761 pid=2590 data_ark_store_block_invoke: Saved.
+06/05/26 21:10:00.159927 pid=2590 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiDebugging]
+06/05/26 21:10:00.159937 pid=2590 set_response_error: handle_get_value MissingValue
+06/05/26 21:10:00.160195 pid=2590 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/05/26 21:10:00.160204 pid=2590 set_response_error: handle_get_value MissingValue
+06/05/26 21:10:00.211940 pid=2590 intialize_wifi_syncing: Full service name is '90:b7:90:00:a0:36@fe80::92b7:90ff:fe00:a036-supportsRP-24._apple-mobdev2._tcp.local.'.
+06/05/26 21:10:00.212397 pid=2590 notify_configd_block_invoke_2: Pinged configd, USB is now enabled.
+06/06/26 02:15:26.010404 pid=89 main: Starting Up
+06/06/26 02:15:26.025176 pid=89 enumerate_pair_record_paths: Failed to open /private/var/root/Library/Lockdown/pair_records/: 2 (No such file or directory)
+06/06/26 02:15:26.026547 pid=89 mglog: libMobileGestalt MobileGestaltCache.c:206: Cache loaded with 6210 pre-cached in CacheData and 83 items in CacheExtra.
+06/06/26 02:15:28.547025 pid=89 lockstart_local: Build version: 23A355
+06/06/26 02:15:28.552543 pid=89 lockstart_local: Data Migration Completed: true
+06/06/26 02:15:28.553032 pid=89 get_device_type_internal_block_invoke: product_type: iPhone17,2
+
+06/06/26 02:15:28.553063 pid=89 get_device_type_internal_block_invoke: has_telephony: true, should_hactivate: false
+06/06/26 02:15:28.553078 pid=89 get_device_type_internal_block_invoke: baseband_class: 3, cert_type 1
+06/06/26 02:15:28.553090 pid=89 _load_product_type: using Raptor Certs
+06/06/26 02:15:28.592300 pid=89 performBootSessionIntialization: Boot session changed (reboot detected).
+06/06/26 02:15:28.592520 pid=89 data_ark_set_block_invoke: dirtied by changing -BootSessionID
+06/06/26 02:15:28.593242 pid=89 data_ark_store_block_invoke: Saved.
+06/06/26 02:15:28.594081 pid=89 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiConnections]
+06/06/26 02:15:28.594095 pid=89 set_response_error: handle_get_value MissingValue
+06/06/26 02:15:28.594062 pid=89 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/06/26 02:15:28.594146 pid=89 set_response_error: handle_get_value MissingValue
+06/06/26 02:15:28.601051 pid=89 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiDebugging]
+06/06/26 02:15:28.601066 pid=89 set_response_error: handle_get_value MissingValue
+06/06/26 02:15:28.605802 pid=89 handle_get_value: remotepairingdeviced attempting to get [com.apple.mobile.wireless_lockdown]:[EnableWifiPairing]
+06/06/26 02:15:28.605827 pid=89 set_response_error: handle_get_value MissingValue
+06/06/26 02:15:29.464900 pid=89 refresh_remote_services_block_invoke: Done resetting remote devices.
+06/06/26 02:15:29.464943 pid=89 service_ark_load: Refreshed remote services.
+06/06/26 02:15:29.465583 pid=89 intialize_wifi_syncing: Full service name is '90:b7:90:00:a0:36@fe80::92b7:90ff:fe00:a036-supportsRP-24._apple-mobdev2._tcp.local.'.
+06/06/26 02:15:29.469903 pid=89 notify_configd_block_invoke_2: Pinged configd, USB is now enabled.
